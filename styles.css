@@ -1,0 +1,112 @@
+/* Обнуление отступов и отступов по умолчанию */
+body, figure, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    max-width: 960px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+    /*padding: 40px; /* Внутренние отступы контейнера */
+    text-align: center; /* Выравнивание текста по центру внутри контейнера */
+    
+}
+
+/* Основные стили для контейнера сайта */
+body {
+    font-family: 'Roboto', sans-serif; /* Использование шрифта Roboto */
+    color: #333; /* Цвет текста */
+    background-color: #c0ebff; /* Цвет фона */
+}
+
+.container {
+    max-width: 860px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+    padding: 40px; /* Внутренние отступы контейнера */
+}
+
+/* Стили для заголовков разделов */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial Black', sans-serif; /* Пользовательский шрифт заголовков */
+    color: #333; /* Цвет текста заголовков */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+h1{
+    font-size: 70px;
+    font-style: italic;
+}
+h2{
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+ol{
+    font-family: 'Roboto', sans-serif; /* Использование шрифта Roboto */
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%; /* Ширина текста равная ширине контейнера */
+    text-align: justify; /* Выравнивание текста по ширине контейнера */
+}
+
+ul{
+    font-family: 'Roboto', sans-serif; /* Использование шрифта Roboto */
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    width: 100%; /* Ширина текста равная ширине контейнера */
+    text-align: justify; /* Выравнивание текста по ширине контейнера */ 
+}
+
+p{
+    font-family: 'Roboto', sans-serif; /* Использование шрифта Roboto */
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%; /* Ширина текста равная ширине контейнера */
+    text-align: justify; /* Выравнивание текста по ширине контейнера */
+    
+}
+
+/* Стили для основного контента */
+main {
+    margin-top: 40px; /* Отступ сверху */
+}
+
+section {
+    margin-bottom: 40px; /* Отступ снизу между разделами */
+}
+
+/* Стили для подвала */
+footer {
+    margin-top: 40px; /* Отступ сверху */
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 12px; /* Размер шрифта текста подвала */
+    color: #777; /* Цвет текста подвала */
+}
+
+/* Оформление изображения */
+img {
+    max-width: 100%; /* Максимальная ширина изображения - 100% от родительского элемента */
+    border-radius: 5px; /* Закругление углов изображения */
+}
+
+#about, #intro, #intro2, #curriculum, #services{
+    border: 3px dashed rgb(0, 0, 0); /* Устанавливаем обводку шириной 2 пикселя, пунктирную (dashed) красного цвета (#f00) */
+    border-radius: 10px; /* Устанавливаем радиус скругления углов обводки 5 пикселей */
+    padding: 30px; /* Устанавливаем внутренний отступ (padding) в 20 пикселей для всех сторон (верхней, правой, нижней, левой) */
+    background-color: #c7e8ff;
+   
+}
+
+#curriculum p{
+    font-style: italic;
+}
+
+#pricing {
+    border: 3px dashed rgb(0, 0, 0); /* Устанавливаем обводку шириной 2 пикселя, пунктирную (dashed) красного цвета (#f00) */
+    border-radius: 10px; /* Устанавливаем радиус скругления углов обводки 5 пикселей */
+    padding: 30px; /* Устанавливаем внутренний отступ (padding) в 20 пикселей для всех сторон (верхней, правой, нижней, левой) */
+    background-color: #c7e8ff;
+}
+
+#footer-prava p{
+    text-align: center;
+}
