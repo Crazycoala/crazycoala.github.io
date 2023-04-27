@@ -37,6 +37,10 @@ h2{
     font-size: 40px;
     font-style: italic;
 }
+h3{
+    font-size: 30px;
+    font-style: italic;
+}
 
 
 ol{
@@ -76,6 +80,12 @@ section {
     margin-bottom: 40px; /* Отступ снизу между разделами */
 }
 
+
+.video-container{
+    margin-bottom: 100px;
+}
+
+
 /* Стили для подвала */
 footer {
     margin-top: 40px; /* Отступ сверху */
@@ -90,7 +100,7 @@ img {
     border-radius: 5px; /* Закругление углов изображения */
 }
 
-#about, #intro, #intro2, #curriculum, #services{
+#about, #intro, #intro2, #curriculum, #Artisting,#services{
     border: 3px dashed rgb(0, 0, 0); /* Устанавливаем обводку шириной 2 пикселя, пунктирную (dashed) красного цвета (#f00) */
     border-radius: 10px; /* Устанавливаем радиус скругления углов обводки 5 пикселей */
     padding: 30px; /* Устанавливаем внутренний отступ (padding) в 20 пикселей для всех сторон (верхней, правой, нижней, левой) */
