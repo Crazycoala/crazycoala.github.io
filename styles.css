@@ -12,8 +12,8 @@ body, figure, h1, h2, h3, h4, h5, h6, p, ul {
 /* Основные стили для контейнера сайта */
 body {
     font-family: 'Roboto', sans-serif; /* Использование шрифта Roboto */
-    color: #333; /* Цвет текста */
-    background-color: #c0ebff; /* Цвет фона */
+    color: #000000; /* Цвет текста */
+    background-color: #7C9BF2; /* Цвет фона */
 }
 
 .container {
@@ -79,7 +79,7 @@ footer {
     margin-top: 40px; /* Отступ сверху */
     text-align: center; /* Выравнивание текста по центру */
     font-size: 12px; /* Размер шрифта текста подвала */
-    color: #777; /* Цвет текста подвала */
+    color: #000000; /* Цвет текста подвала */
 }
 
 /* Оформление изображения */
@@ -90,9 +90,10 @@ img {
 
 #about, #intro, #intro2, #curriculum, #services{
     border: 3px dashed rgb(0, 0, 0); /* Устанавливаем обводку шириной 2 пикселя, пунктирную (dashed) красного цвета (#f00) */
+    width: 860px;
     border-radius: 10px; /* Устанавливаем радиус скругления углов обводки 5 пикселей */
     padding: 30px; /* Устанавливаем внутренний отступ (padding) в 20 пикселей для всех сторон (верхней, правой, нижней, левой) */
-    background-color: #c7e8ff;
+    background-color: #E5FFF9;
    
 }
 
@@ -101,12 +102,17 @@ img {
 }
 
 #pricing {
+    width: 860px;
     border: 3px dashed rgb(0, 0, 0); /* Устанавливаем обводку шириной 2 пикселя, пунктирную (dashed) красного цвета (#f00) */
     border-radius: 10px; /* Устанавливаем радиус скругления углов обводки 5 пикселей */
     padding: 30px; /* Устанавливаем внутренний отступ (padding) в 20 пикселей для всех сторон (верхней, правой, нижней, левой) */
-    background-color: #c7e8ff;
+    background-color: #E5FFF9;
 }
 
 #footer-prava p{
     text-align: center;
+}
+
+#contacts {
+    font-size: 20px;
 }
