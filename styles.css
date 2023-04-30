@@ -100,7 +100,7 @@ img {
     border-radius: 5px; /* Закругление углов изображения */
 }
 
-#about, #intro, #intro2, #curriculum, #Artisting,#services{
+#about, #intro, #intro2, #curriculum, #Artisting,#services, #contacts{
     border: 3px dashed rgb(0, 0, 0); /* Устанавливаем обводку шириной 2 пикселя, пунктирную (dashed) красного цвета (#f00) */
     border-radius: 10px; /* Устанавливаем радиус скругления углов обводки 5 пикселей */
     padding: 30px; /* Устанавливаем внутренний отступ (padding) в 20 пикселей для всех сторон (верхней, правой, нижней, левой) */
